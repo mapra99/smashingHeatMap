@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(195, 197, 197);
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+
+.article-div{
+    box-sizing: border-box;
+    height: 800px;
+    width: 33.33%;
+    float: left;
+    background-color: rgb(107, 107, 107);
+    border: 1px solid black;
+}
+
+@media (max-width: 1024px) {
+    .article-div{
+        width: 50%;
+    }
+}
+
+.title-div {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h1 {
+    background-color: rgb(49, 49, 49);
+    font-size: 30px;
+    line-height: 45px;
+    padding: 0 10px;
+    display: inline;
+}

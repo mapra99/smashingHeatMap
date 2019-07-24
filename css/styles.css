@@ -105,3 +105,20 @@ i {font-weight: 200;}
 	clear: both;
 }
 
+.article-wrap{
+	width: 80%;
+}
+
+.article-wrap .article-div{
+	height: 500px;
+	background-color: lightgray;
+}
+
+.article-wrap .text-div{
+	margin-top: 0;
+	color: black;
+}
+
+.article-wrap .text-div p{
+	font-family: 'Playfair Display', serif;
+}

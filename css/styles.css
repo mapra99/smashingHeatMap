@@ -80,7 +80,7 @@ i {font-weight: 200;}
    	font-family: 'Playfair Display', serif;
 	color: black;
 	padding: 50px 0;
-	background-color: rgb(104, 102, 102); /*Change this!*/
+	background-color: rgb(104, 102, 102);
 	line-height: 1.5em;
 	overflow: auto;
 }
@@ -89,7 +89,7 @@ i {font-weight: 200;}
 	float: left;
 	width: 40%;
 	margin-left: 15%;
-	background-color: rgb(128, 128, 128); /*Change this!*/
+	background-color: rgb(128, 128, 128);
 }
 
 .membership-img{
@@ -98,7 +98,7 @@ i {font-weight: 200;}
 	width: 20%;
 	height: 300px;
 	margin-right: 25%;
-	background-color: rgb(41, 41, 41); /*Change this!*/
+	background-color: rgb(41, 41, 41);
 }
 
 .membership-cont:after{

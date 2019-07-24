@@ -76,4 +76,32 @@ i {font-weight: 200;}
 
 .membership-cont {
     width: 100%;
+    clear: left;
+   	font-family: 'Playfair Display', serif;
+	color: black;
+	padding: 50px 0;
+	background-color: gray; /*Change this!*/
+	line-height: 1.5em;
+	overflow: auto;
 }
+
+.membership-ad{
+	float: left;
+	width: 40%;
+	margin-left: 15%;
+	background-color: white; /*Change this!*/
+}
+
+.membership-img{
+
+	float: right;
+	width: 20%;
+	height: 300px;
+	margin-right: 25%;
+	background-color: darkgray; /*Change this!*/
+}
+
+.membership-cont:after{
+	clear: both;
+}
+

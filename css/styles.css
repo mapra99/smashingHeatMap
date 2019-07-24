@@ -55,7 +55,7 @@ main {
     
 }
 
-h1 {
+h2 {
     background-color: rgb(49, 49, 49);
     font-size: 30px;
     line-height: 45px;
@@ -63,15 +63,17 @@ h1 {
     display: inline;
 }
 
+h1{
+	font-size: 40px;
+}
+
+i {font-weight: 200;}
+
 .text-div{
 	margin: 200px auto;
 	width: 80%;
 }
 
-h2{
-	font-size: 36px;
-}
-
-p{
-	
+.membership-cont {
+    width: 100%;
 }

@@ -1,0 +1,179 @@
+body {
+	box-sizing:border-box;
+	color:#FFF;
+	font-family:"Fira Sans", sans-serif;
+	margin:0;
+	padding:0;
+}
+
+nav {
+	align-items:center;
+	display:flex;
+	flex-direction:row;
+	height:200px;
+	justify-content:center;
+	width:100%;
+}
+
+.header-cont {
+	background-color:#c3c5c5;
+	box-sizing:border-box;
+	height:100%;
+	width:14.28%;
+}
+
+.bordered {
+	border-right:1px solid #000;
+}
+
+main {
+	position:relative;
+	width:100%;
+}
+
+.article-div {
+	background-color:#6b6b6b;
+	border:1px solid #000;
+	box-sizing:border-box;
+	float:left;
+	height:800px;
+	width:50%;
+}
+
+.img-article {
+	width: 120px;
+	display: inline-block;
+	
+}
+
+.img-article img {
+	width: 100%;
+}
+
+.title-div {
+	display:flex;
+	justify-content:center;
+	position:absolute;
+	text-align:center;
+	width:100%;
+}
+
+h3 {
+	display: inline-block;
+	position: relative;
+	top: -25px;
+	padding-left: 15px;
+}
+
+h2 {
+	background-color:#313131;
+	display:inline;
+	font-size:30px;
+	line-height:45px;
+	padding:0 10px;
+}
+
+h1 {
+	font-size:40px;
+}
+
+i {
+	font-weight:200;
+}
+
+.text-div {
+	margin:200px auto;
+	width:80%;
+}
+
+.membership-cont {
+	background-color:#686666;
+	clear:left;
+	color:#000;
+	font-family:'Playfair Display', serif;
+	line-height:1.5em;
+	overflow:auto;
+	padding:50px 0;
+	width:100%;
+}
+
+.membership-ad {
+	background-color:gray;
+	float:left;
+	padding-left:15%;
+	width:66.6%;
+	box-sizing: border-box;
+}
+
+.membership-img {
+	float:right;
+	height:300px;
+	padding-right:13.3%;
+	width:33.1%;
+	box-sizing: border-box; 
+}
+
+.membership-img div{
+	background-color:#292929;
+	width: 50%;
+	height: 50%;
+}
+
+.membership-cont:after {
+	clear:both;
+}
+
+.bottom-articles {width: 33.33%}
+
+.article-wrap {
+	width:100%;
+}
+
+.article-wrap .article-div {
+	background-color:lightgray;
+	height:500px;
+}
+
+.article-wrap .text-div {
+	color:#000;
+	margin-top:0;
+}
+
+.article-wrap .text-div p {
+	font-family:'Playfair Display', serif;
+}
+
+footer {
+	background-color:#b8b7b7;
+	clear:both;
+	height:700px;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	height: 20%;
+	flex-wrap: wrap;
+}
+
+li {
+	display: list-item;
+	flex-direction: row;
+	font-family:'Playfair Display', serif;
+	font-size: 26px;
+	line-height: 30px;
+	margin: 20px;
+}
+
+li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+li a:hover{color: black;}

@@ -6,9 +6,8 @@ body {
 	padding:0;
 }
 
-header {
+nav {
 	align-items:center;
-	background-color:#c3c5c5;
 	display:flex;
 	flex-direction:row;
 	height:200px;
@@ -17,10 +16,10 @@ header {
 }
 
 .header-cont {
-	background-color:#F0F8FF;
+	background-color:#c3c5c5;
 	box-sizing:border-box;
-	height:100px;
-	width:135px;
+	height:100%;
+	width:14.28%;
 }
 
 .bordered {
@@ -84,16 +83,23 @@ i {
 .membership-ad {
 	background-color:gray;
 	float:left;
-	margin-left:15%;
-	width:40%;
+	padding-left:15%;
+	width:66.6%;
+	box-sizing: border-box;
 }
 
 .membership-img {
-	background-color:#292929;
 	float:right;
 	height:300px;
-	margin-right:25%;
-	width:20%;
+	padding-right:13.3%;
+	width:33.1%;
+	box-sizing: border-box; 
+}
+
+.membership-img div{
+	background-color:#292929;
+	width: 50%;
+	height: 50%;
 }
 
 .membership-cont:after {

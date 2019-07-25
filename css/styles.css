@@ -148,4 +148,32 @@ footer {
 	clear:both;
 	height:700px;
 	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	height: 20%;
+	flex-wrap: wrap;
+}
+
+li {
+	display: list-item;
+	flex-direction: row;
+	font-family:'Playfair Display', serif;
+	font-size: 26px;
+	line-height: 30px;
+	margin: 20px;
+}
+
+li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+li a:hover{color: black;}
